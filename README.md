@@ -80,3 +80,114 @@ medicine delivery is emerging.
 ---
 
 ## 🏗️ Architecture
+
+lib/
+├── core/
+│   ├── constants/
+│   ├── theme/
+│   └── utils/
+├── data/
+│   ├── models/
+│   ├── repositories/
+│   └── datasources/
+├── domain/
+│   ├── entities/
+│   └── usecases/
+└── presentation/
+├── screens/
+├── widgets/
+└── providers/
+
+**Clean Architecture** with clear separation 
+of concerns — Data, Domain, and Presentation 
+layers fully decoupled.
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Splash | Home | Map |
+|---|---|---|
+| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) | ![Map](screenshots/map.png) |
+
+| PharmBot AI | KYC | Delivery |
+|---|---|---|
+| ![PharmBot](screenshots/pharmbot.png) | ![KYC](screenshots/kyc.png) | ![Delivery](screenshots/delivery.png) |
+
+</div>
+
+---
+
+## 🤖 Med'Assist — AI Health Consultant
+
+Med'Assist is an AI-powered chatbot integrated 
+directly into Pharm'Assist, built with:
+
+- **Claude Haiku** (Anthropic) — fast, 
+  cost-efficient LLM for health queries
+- **Firebase Cloud Functions** — serverless 
+  middleware for secure API calls
+- **Firebase Secret Manager** — API keys 
+  never exposed client-side
+- **Structured responses** — JSON-formatted 
+  AI outputs for consistent UI rendering
+
+User: "Is ibuprofen safe with paracetamol?"
+Med'Assist: [AI-generated medical guidance
+with disclaimer]
+
+---
+
+## 💰 Dynamic Delivery Pricing
+
+Inspired by Yango/Uber pricing model:
+
+- Base fare stored in **Firestore** 
+  (updateable without app release)
+- Distance-based calculation
+- Surge multiplier support
+- Real-time price display before order
+
+---
+
+## 🌍 Target Market
+
+- **Primary:** West Africa (Senegal, Benin, 
+  Côte d'Ivoire, Mali)
+- **Secondary:** French-speaking Africa
+- **Future:** European diaspora communities
+
+---
+
+## 📊 Project Status
+
+| Component | Status |
+|---|---|
+| Flutter App | ✅ Complete |
+| Firebase Backend | ✅ Complete |
+| PharmBot AI | ✅ Complete |
+| KYC Flow | ✅ Complete |
+| Dynamic Pricing | ✅ Complete |
+| App Store Deployment | 🔄 In Progress |
+| Play Store Deployment | 🔄 In Progress |
+
+---
+
+## 👨‍💻 Developer
+
+**Abdel Wariss OSSENI**
+Founder, CODEXA Solutions 🇸🇳
+
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/abdelwarissosseni)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AbdelWariss)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:warissosseni@yahoo.com)
+
+---
+
+<div align="center">
+
+*Built with ❤️*
+
+</div>
